@@ -8,3 +8,14 @@ for future cybersecurity and Blue Team usage.
 
 ## Status
 Learning in progress.
+
+## Topics Covered
+- Variable definition
+- Variable naming rules
+- Data types
+- Type conversion
+- String data type
+- String slicing
+- String formatting
+- String methods
+
