@@ -18,4 +18,5 @@ Learning in progress.
 - String slicing
 - String formatting
 - String methods
+- List definition (basic usage)
 
