@@ -19,4 +19,6 @@ Learning in progress.
 - String formatting
 - String methods
 - List definition (basic usage)
-
+- List methods
+- Tuple
+- Dictionary
