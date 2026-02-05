@@ -22,3 +22,6 @@ Learning in progress.
 - List methods
 - Tuple
 - Dictionary
+- Dictionary methods(new)
+- Sets(new)
+- Value and reference types(new)
