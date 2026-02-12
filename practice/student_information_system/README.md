@@ -1,5 +1,7 @@
 # Student Information System
 
+**Version:** v0.0.3
+
 A simple terminal-based student management system built with Python.
 
 ## Current Features
