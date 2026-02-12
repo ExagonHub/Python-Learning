@@ -1,31 +1,16 @@
 # Student Information System
 
-A Python project to practice dictionary data structures and nested data organization.
+A simple terminal-based student management system built with Python.
 
-## Features
+## Current Features
+- Student lookup by ID
+- Formatted student information display
+- Manual average grade calculation
+- Pass / Fail status
 
-- Store student information (personal details, academic info, grades)
-- Search student by ID
-- Safe data access using `.get()` method
+## Future Plans
+- Menu system
+- Role-based access (admin/teacher/student)
+- Data persistence (JSON / database)
+- Authentication system
 
-## Current Learning Focus
-
-- ✅ Dictionary basics
-- ✅ Nested dictionaries
-- ✅ `.get()` method for safe lookups
-
-## Planned Improvements
-
-- [ ] Add if-else for error handling
-- [ ] Calculate grade averages
-- [ ] Add/update/delete students
-- [ ] Save data to file
-- [ ] Menu system
-
-## Tech
-
-Python 3.x | Dictionaries
-
----
-
-*Learning project - updated as I progress through Python fundamentals*
