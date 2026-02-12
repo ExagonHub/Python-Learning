@@ -1,3 +1,11 @@
+# Student Information System
+# Version: v0.3
+# Features:
+# - Student lookup by ID
+# - Formatted output
+# - Average grade calculation
+# - Pass / Fail status
+
 students = {
     101:{
         'name':'Michael',
@@ -70,4 +78,33 @@ students = {
 student_id = int(input('Student ID: '))
 student = students.get(student_id)
 
-print(student)
+if student:
+    print('Student Information')
+    print('-------------------')
+    print('Name: ', student['name'],student['last_name'])
+    print('Faculty: ', student['faculty'])
+    print('Department:', student['department'])
+    print('Class: ', student['class_year'])
+    print('Advisor: ', student['advisor'])
+    #Ortalama Hesabi
+    midterms = student['grades']['midterm']
+    finals = student['grades']['finals']
+
+    midterm_avg = round((midterms[0]+midterms[1]+midterms[2]) / 3,2)
+    final_avg = round((finals[0]+finals[1]+finals[2]) / 3,2)
+    overall_avg = round((midterm_avg+final_avg) / 2,2)
+
+    print('Student Grades')
+    print('--------------')
+    print('Midterm Average:', midterm_avg)
+    print('Final Average:', final_avg)
+    print('Overall Average:', overall_avg)
+
+    if overall_avg >=60:
+        print('Status: PASSED')
+    else:
+        print('Status: FAILED')
+else:
+    print('Student not found.')
+
+
