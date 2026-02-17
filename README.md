@@ -25,7 +25,9 @@ Learning in progress.
 - Dictionary methods
 - Sets
 - Value and reference types
-- Arithmetic Operators(new)
-- Assignment Operators(new)
-- Comparison Operators(new)
-- Logical Operators(new)
+- Arithmetic Operators
+- Assignment Operators
+- Comparison Operators
+- Logical Operators
+- Membership Operators 
+- Conditional Statements (if, elif, else) (new)
