@@ -1,33 +1,47 @@
 # Python Learning
-My Python learning notes and small examples
 
-## About
-This repository contains my Python learning notes and small examples.
-I am currently learning Python from scratch and building a strong foundation
-for future cybersecurity and Blue Team usage.
+This repository documents my Python learning journey.
 
-## Status
-Learning in progress.
+I am building a strong foundation from scratch with the goal of using Python in cybersecurity and Blue Team operations.
+
+---
+
+## Current Status
+Learning in progress 🚀
+
+---
 
 ## Topics Covered
+
+### Fundamentals
 - Variable definition
 - Variable naming rules
 - Data types
 - Type conversion
+- Value and reference types
+
+### Strings
 - String data type
 - String slicing
 - String formatting
 - String methods
-- List definition (basic usage)
+
+### Data Structures
+- List (basic usage)
 - List methods
 - Tuple
 - Dictionary
 - Dictionary methods
-- Sets
-- Value and reference types
+- Set
+
+### Operators
 - Arithmetic Operators
 - Assignment Operators
 - Comparison Operators
 - Logical Operators
-- Membership Operators 
-- Conditional Statements (if, elif, else) (new)
+- Membership Operators
+
+### Control Flow
+- Conditional Statements (if, elif, else)
+- Loops (while, for) (new)
+- Basic Login & Menu System (practice)
